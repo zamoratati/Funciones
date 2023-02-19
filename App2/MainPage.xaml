@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout>
+        <Frame Margin="20,20,20,20"  BackgroundColor="#2196F3" Padding="24" CornerRadius="20"> 
+            
+           
+            <Label Text="FUNCIONES MATEMATICAS" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+
+
+        </Frame>
+        <StackLayout>
+           
+            <Image Source=""/>
+            <StackLayout HorizontalOptions="Center"> 
+                <Label Text="Numero 1" />
+                <Entry  />
+                <Label Text="Numero 2" />
+                <Entry />
+            </StackLayout>
+            
+            
+            <Button Text="SUMAR" />
+            <Button Text="DIVIDIR"/>
+            <Button Text="RESTAR" />
+            <Button Text="MULTIPLICAR"/>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
